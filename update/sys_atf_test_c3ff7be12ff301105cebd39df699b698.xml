@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
     <sys_atf_test action="INSERT_OR_UPDATE">
         <active>true</active>
-        <copied_from display_value="NeedIt Set Requested for and Email">c3ff7be12ff301105cebd39df699b698</copied_from>
+        <copied_from/>
         <description>Test two NeedIt App Client Scripts: NeedIt Set Requested for and NeedIt Populate Email Field</description>
         <enable_parameterized_testing>false</enable_parameterized_testing>
-        <name>NeedIt Set Requested for and Email copy</name>
+        <name>NeedIt Set Requested for and Email</name>
         <parameters/>
         <remember/>
         <sys_class_name>sys_atf_test</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-05-31 16:48:10</sys_created_on>
-        <sys_id>0239487d2ff301105cebd39df699b633</sys_id>
+        <sys_created_on>2022-05-31 16:08:05</sys_created_on>
+        <sys_id>c3ff7be12ff301105cebd39df699b698</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>NeedIt Set Requested for and Email copy</sys_name>
+        <sys_name>NeedIt Set Requested for and Email</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name>sys_atf_test_0239487d2ff301105cebd39df699b633</sys_update_name>
+        <sys_update_name>sys_atf_test_c3ff7be12ff301105cebd39df699b698</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-05-31 16:48:10</sys_updated_on>
+        <sys_updated_on>2022-05-31 16:08:05</sys_updated_on>
     </sys_atf_test>
-    <sys_variable_value action="delete_multiple" query="document_key=0239487d2ff301105cebd39df699b633"/>
+    <sys_variable_value action="delete_multiple" query="document_key=c3ff7be12ff301105cebd39df699b698"/>
 </record_update>

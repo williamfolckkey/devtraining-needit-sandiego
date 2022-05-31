@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from display_value="Field Values Validation">c003c0f52ff301105cebd39df699b667</copied_from>
+        <description>Validate that the form matches the following condition:
+Requested for = {{Step 1: Impersonate.User}}
+and Requested for email = {{Step 1: Impersonate.User.Email}}
+With a failure timeout of 5 Seconds</description>
+        <display_name>Field Values Validation</display_name>
+        <inputs/>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>3</order>
+        <snapshot/>
+        <step_config display_value="Field Values Validation">1b97cd31872022008182c9ded0e3ece5</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-31 16:48:11</sys_created_on>
+        <sys_id>1e398c7d2ff301105cebd39df699b698</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Field Values Validation</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_atf_step_1e398c7d2ff301105cebd39df699b698</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-31 16:48:11</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+        <test display_value="NeedIt Set Requested for and Email copy">0239487d2ff301105cebd39df699b633</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=1e398c7d2ff301105cebd39df699b698"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>1e398c7d2ff301105cebd39df699b698</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-31 16:48:11</sys_created_on>
+        <sys_id>1e398c7d2ff301105cebd39df699b69a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-31 16:48:11</sys_updated_on>
+        <value>u_requested_for={{step['997200f12ff301105cebd39df699b69c'].user}}^u_requested_for_email={{step['997200f12ff301105cebd39df699b69c'].user.email}}^EQ</value>
+        <variable display_value="Conditions">4aa838f25320220002c6435723dc34e1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>1e398c7d2ff301105cebd39df699b698</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-31 16:48:11</sys_created_on>
+        <sys_id>5a398c7d2ff301105cebd39df699b69a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-31 16:48:11</sys_updated_on>
+        <value>standard_ui</value>
+        <variable display_value="Form UI">c83b5337e7633300e12127d8d2f6a98b</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>1e398c7d2ff301105cebd39df699b698</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-31 16:48:11</sys_created_on>
+        <sys_id>de398c7d2ff301105cebd39df699b69a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-31 16:48:11</sys_updated_on>
+        <value>x_58872_needit_needit</value>
+        <variable display_value="Table">a0e13cc35320220002c6435723dc3467</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="id=1e398c7d2ff301105cebd39df699b698"/>
+    <sys_element_mapping action="DELETE">
+        <field>conditions</field>
+        <id>1e398c7d2ff301105cebd39df699b698</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-31 16:48:11</sys_created_on>
+        <sys_id>56398c7d2ff301105cebd39df699b69b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-31 16:48:11</sys_updated_on>
+        <table>var__m_atf_input_variable_1b97cd31872022008182c9ded0e3ece5</table>
+        <value>u_requested_for={{step['997200f12ff301105cebd39df699b69c'].user}}^u_requested_for_email={{step['997200f12ff301105cebd39df699b69c'].user.email}}^EQ</value>
+    </sys_element_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>60ce7afddb4fff80387021c405961920</instance_id>
+        <instance_name>dev90729</instance_name>
+        <name>sys_atf_step_1e398c7d2ff301105cebd39df699b698</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from display_value="Field Values Validation">c003c0f52ff301105cebd39df699b667</copied_from><description>Validate that the form matches the following condition:
+Requested for = {{Step 1: Impersonate.User}}
+and Requested for email = {{Step 1: Impersonate.User.Email}}
+With a failure timeout of 5 Seconds</description><display_name>Field Values Validation</display_name><inputs/><inputs/><mugshots_cache_json/><notes/><order>3</order><snapshot/><step_config display_value="Field Values Validation">1b97cd31872022008182c9ded0e3ece5</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-31 16:48:11</sys_created_on><sys_id>1e398c7d2ff301105cebd39df699b698</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Field Values Validation</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_atf_step_1e398c7d2ff301105cebd39df699b698</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-31 16:48:11</sys_updated_on><table>x_58872_needit_needit</table><test display_value="NeedIt Set Requested for and Email copy">0239487d2ff301105cebd39df699b633</test><timeout>1970-01-01 00:00:05</timeout><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=1e398c7d2ff301105cebd39df699b698"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>1e398c7d2ff301105cebd39df699b698</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-31 16:48:11</sys_created_on><sys_id>1e398c7d2ff301105cebd39df699b69a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-31 16:48:11</sys_updated_on><value>u_requested_for={{step['997200f12ff301105cebd39df699b69c'].user}}^u_requested_for_email={{step['997200f12ff301105cebd39df699b69c'].user.email}}^EQ</value><variable display_value="Conditions">4aa838f25320220002c6435723dc34e1</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>1e398c7d2ff301105cebd39df699b698</document_key><order>50</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-31 16:48:11</sys_created_on><sys_id>5a398c7d2ff301105cebd39df699b69a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-31 16:48:11</sys_updated_on><value>standard_ui</value><variable display_value="Form UI">c83b5337e7633300e12127d8d2f6a98b</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>1e398c7d2ff301105cebd39df699b698</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-31 16:48:11</sys_created_on><sys_id>de398c7d2ff301105cebd39df699b69a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-31 16:48:11</sys_updated_on><value>x_58872_needit_needit</value><variable display_value="Table">a0e13cc35320220002c6435723dc3467</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="id=1e398c7d2ff301105cebd39df699b698"/><sys_element_mapping action="INSERT_OR_UPDATE"><field>conditions</field><id>1e398c7d2ff301105cebd39df699b698</id><sys_created_by>admin</sys_created_by><sys_created_on>2022-05-31 16:48:11</sys_created_on><sys_id>56398c7d2ff301105cebd39df699b69b</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-05-31 16:48:11</sys_updated_on><table>var__m_atf_input_variable_1b97cd31872022008182c9ded0e3ece5</table><value>u_requested_for={{step['997200f12ff301105cebd39df699b69c'].user}}^u_requested_for_email={{step['997200f12ff301105cebd39df699b69c'].user.email}}^EQ</value></sys_element_mapping></record_update>]]></payload>
+        <payload_hash>-1263444153</payload_hash>
+        <record_name>Field Values Validation</record_name>
+        <reverted_from/>
+        <source>aeb388b52ff301105cebd39df699b612</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-31 16:48:11</sys_created_on>
+        <sys_id>5a398c7d2ff301105cebd39df699b69d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1811b048abf0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-31 16:48:11</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>92398c7d8bf301106bca8a6bd3cb019d</update_guid>
+        <update_guid_history>92398c7d8bf301106bca8a6bd3cb019d:-1263444153</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-05-31 16:49:51</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>d0b7adb1f8744600a20237e06bb7f100</sys_id>
+        <sys_metadata>1e398c7d2ff301105cebd39df699b698</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Field Values Validation</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_atf_step_1e398c7d2ff301105cebd39df699b698</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_1e398c7d2ff301105cebd39df699b698">5a398c7d2ff301105cebd39df699b69d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-05-31 16:49:51</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

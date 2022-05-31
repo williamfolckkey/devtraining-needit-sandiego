@@ -15,36 +15,36 @@ See the documentation for Test Design Considerations</description>
         <step_config display_value="Impersonate">071ee5b253331200040729cac2dc348d</step_config>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-05-31 16:48:10</sys_created_on>
-        <sys_id>4239487d2ff301105cebd39df699b637</sys_id>
+        <sys_created_on>2022-05-31 16:50:00</sys_created_on>
+        <sys_id>7ca98c7d2ff301105cebd39df699b6e8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Impersonate</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name>sys_atf_step_4239487d2ff301105cebd39df699b637</sys_update_name>
+        <sys_update_name>sys_atf_step_7ca98c7d2ff301105cebd39df699b6e8</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-05-31 16:48:10</sys_updated_on>
+        <sys_updated_on>2022-05-31 16:50:00</sys_updated_on>
         <table/>
-        <test display_value="NeedIt Set Requested for and Email copy">0239487d2ff301105cebd39df699b633</test>
+        <test display_value="NeedIt Fail Test">b4a98c7d2ff301105cebd39df699b6e5</test>
         <timeout/>
         <warning_message>Warning: Impersonating an existing user may cause unexpected behavior for this test. Avoid potential issues by adding a 'Create a User' step instead&#13;
 See the documentation for Test Design Considerations</warning_message>
     </sys_atf_step>
-    <sys_variable_value action="delete_multiple" query="document_key=4239487d2ff301105cebd39df699b637"/>
+    <sys_variable_value action="delete_multiple" query="document_key=7ca98c7d2ff301105cebd39df699b6e8"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_atf_step</document>
-        <document_key>4239487d2ff301105cebd39df699b637</document_key>
+        <document_key>7ca98c7d2ff301105cebd39df699b6e8</document_key>
         <order>100</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-05-31 16:48:10</sys_created_on>
-        <sys_id>4239487d2ff301105cebd39df699b638</sys_id>
+        <sys_created_on>2022-05-31 16:50:00</sys_created_on>
+        <sys_id>78a98c7d2ff301105cebd39df699b6e9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-05-31 16:48:10</sys_updated_on>
+        <sys_updated_on>2022-05-31 16:50:00</sys_updated_on>
         <value>5137153cc611227c000bbd1bd8cd2005</value>
         <variable display_value="User">586e2c4253e0220002c6435723dc3415</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_071ee5b253331200040729cac2dc348d^id=4239487d2ff301105cebd39df699b637"/>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_071ee5b253331200040729cac2dc348d^id=7ca98c7d2ff301105cebd39df699b6e8"/>
 </record_update>
